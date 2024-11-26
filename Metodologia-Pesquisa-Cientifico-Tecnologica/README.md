@@ -83,37 +83,37 @@ Atuei como desenvolvedor Front-End e UX, sendo responsável pelo criação e des
 
 <details>
 <summary>Criação do Componente Modal de exibição dos detalhes</summary>
-    Criei o componente que nomeamos de "Modal" responsável por armazenar os detalhes da configuração em cada etapa de configurção.
+    Criei o componente que nomeamos de "Modal" responsável por armazenar os detalhes da configuração em cada etapa de configurção.<br>
     - Aprendi a criação de componentes com vue.js, mas tive muitos problemas para criar um mesmo componente que pudesse ser reutilizado diversas vezes em situações diferentes. Sempre barrava em alguma condição que não era atendida no meu componente o que fez eu refazer o código diversas vezes.
 </details>
 
 <details>
 <summary>Criação o Componente Modal de exibição dos detalhes da etapa Bronze Config</summary>
-    Com o componente criado, atuei montando a configuração do modal da Bronze Config, que ao acessar a configuração desejada, informava se ela estava aprovada ou não aprovada de acordo com as condições definidas pelo cliente (Para estar aprovada, um colaborador com permissão Bronze devia conferir todas informações fornecidas pela configuração Bronze e se condizer como verdadeiro, o colaborador com permissão Bronze deve difinir ao menos uma coluna para ser denominada Hash).
+    Com o componente criado, atuei montando a configuração do modal da Bronze Config, que ao acessar a configuração desejada, informava se ela estava aprovada ou não aprovada de acordo com as condições definidas pelo cliente (Para estar aprovada, um colaborador com permissão Bronze devia conferir todas informações fornecidas pela configuração Bronze e se condizer como verdadeiro, o colaborador com permissão Bronze deve difinir ao menos uma coluna para ser denominada Hash).<br>
     - Nessa etapa onde tive que recriar o componente diversas vezes, pois a alteração feita no componente pai estava conflitando com os filhos. Aqui também atuei na lógica de verificação de aprovação das colunas e verificação da existência de uma coluna Hash para que o status seja atualizado para aprovado no Modal de configuração.
 </details>
 
 <details>
 <summary>Criação do visual aprovado do card na etapa Bronze Config</summary>
-    O Card foi desenvolvido pelo Paulo (Full-Stack) que armazena o título da configuração feita pelo usuário. Ele funciona como uma lista de configurações onde o cliente conseguirá verificar quais configurações já foram criadas anteriormente e seleciona-las caso deseja editar em qualquer etapa da pipeline (Landing Zone, Bronze, Silver). Na etapa Bronze, além do modal que deveria exibir a informação de aprovação, o cliente solicitou uma visualização prévia no card criado e que fosse mais visual para aprovado ou reprovado. Então criei um ícone que, de acordo com o status da configuração, atualizava para dar esse informativo para o cliente.
+    O Card foi desenvolvido pelo Paulo (Full-Stack) que armazena o título da configuração feita pelo usuário. Ele funciona como uma lista de configurações onde o cliente conseguirá verificar quais configurações já foram criadas anteriormente e seleciona-las caso deseja editar em qualquer etapa da pipeline (Landing Zone, Bronze, Silver). Na etapa Bronze, além do modal que deveria exibir a informação de aprovação, o cliente solicitou uma visualização prévia no card criado e que fosse mais visual para aprovado ou reprovado. Então criei um ícone que, de acordo com o status da configuração, atualizava para dar esse informativo para o cliente.<br>
     - Com a lógica criada já anteriormente por mim feita, tive que apenas transportar a informação de um componente ao outro. Não tive muita dificuldade em desenvolvimento, mas foi dificultoso chegar em um acordo com o cliente, já que o mesmo buscava requisitos de experiência diferente a cada vez que apresentavámos, mudando diversas vezes o ícone ou formato de como ele queria ver esse status visualmente. Mas chegamos na conclusão de um ícone correto ou incorreto para cada status.
 </details>
 
 <details>
 <summary>Criação da tela de Silver Config</summary>
-    Apoiado pela equipe criei a tela de Silver Config, precisei buscar novos conhecimentos, principalmente em java, pois estava atuando até o momento apenas com o front-end, para que pudesse verificar como iriamos mandar os dados e consumi-los no front-end para exibição e configuração na etapa Silver da aplicação. Criei o desgin da tela pelo figma e a tela pós todos requisitos definidos para o projeto. Tive alguns problemas pessoais neste perído, então após o desenvolvimento do Desgin, tive que me afastar para repouso médico devido a ter adquirido Dengue. Por isso necessitei do apoio de minha equipe para finalização desta minha tarefa.
+    Apoiado pela equipe criei a tela de Silver Config, precisei buscar novos conhecimentos, principalmente em java, pois estava atuando até o momento apenas com o front-end, para que pudesse verificar como iriamos mandar os dados e consumi-los no front-end para exibição e configuração na etapa Silver da aplicação. Criei o desgin da tela pelo figma e a tela pós todos requisitos definidos para o projeto. Tive alguns problemas pessoais neste perído, então após o desenvolvimento do Desgin, tive que me afastar para repouso médico devido a ter adquirido Dengue. Por isso necessitei do apoio de minha equipe para finalização desta minha tarefa.<br>
     - Devido a doença, não consegui me aprofundar tanto quanto gostaria nesta task, para obter mais conhecimento. Mas aprendi muito sobre experiência de usuário, pois desenvolvi toda tela para o cliente que foi aprovado, com alguns detalhes apenas para ser mudado.
 </details>
 
 <details>
 <summary>Criação de alertas</summary>
-    Criei o design dos alertas via figma e implementei-o no nosso projeto, como alerta de informações incongruentes, falta de dados, limite de caracteres excedido, etc. Eles funcionavam como pop-ups, e como o PO junto ao cliente dicidiu, todos os alertas necessitavam de uma ação, como um clique por exemplo, para que ele fosse fechado. Isso para que o usuário consiga verificar o erro com calma sem que o alerta desapareça antes de que ele leia.
+    Criei o design dos alertas via figma e implementei-o no nosso projeto, como alerta de informações incongruentes, falta de dados, limite de caracteres excedido, etc. Eles funcionavam como pop-ups, e como o PO junto ao cliente dicidiu, todos os alertas necessitavam de uma ação, como um clique por exemplo, para que ele fosse fechado. Isso para que o usuário consiga verificar o erro com calma sem que o alerta desapareça antes de que ele leia.<br>
     - Aprendi a trabalhar com pop-ups e tratativas de erros com TypeScript, a implementação foi tranquila. A dificuldade foi entender e verificar se todos os erros estão sendo tratados. Essa tarefa acabou gerando muitos bugs visuais de sobreposição de componentes, mas todos tratados dentro da sprint conforme programado.
 </details>
 
 <details>
 <summary>Documentação do projeto</summary>
-    Criei toda a documentação do projeto. Precisei aprender sobre todas as funcionalidades do front-end e back-end para registrá-las. Verifiquei todos os requisitos necessários para que a aplicação rode. Criei o manual do usuário, manual de instalação e documentação da sprint, detalhando cada gráfico de burndown e cada task desenvolvida.
+    Criei toda a documentação do projeto. Precisei aprender sobre todas as funcionalidades do front-end e back-end para registrá-las. Verifiquei todos os requisitos necessários para que a aplicação rode. Criei o manual do usuário, manual de instalação e documentação da sprint, detalhando cada gráfico de burndown e cada task desenvolvida.<br>
     - Aprendi sobre a documentação de projetos, em todas as áreas: Manual do Usuário, Manual de Instalação, Backlog de sprint, Backlog de produto.
 </details>
 
