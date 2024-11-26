@@ -1,0 +1,25 @@
+@startuml
+
+interface FileSystemComponent {
+    + void display()
+}
+
+class FileFolha {
+    - String name
+    + FileFolha(String name)
+    + void display()
+}
+
+class FolderComposto {
+    - String name
+    - List<FileSystemComponent> components
+    + FolderComposto(String name)
+    + void add(FileSystemComponent component)
+    + void remove(FileSystemComponent component)
+    + void display()
+}
+
+FileSystemComponent <|.. FileFolha
+FileSystemComponent <|.. FolderComposto
+
+@enduml

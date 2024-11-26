@@ -1,0 +1,35 @@
+@startuml
+
+interface Observador {
+    + void atualizar(Double preco)
+    + Double getPrecoAtual()
+}
+
+class Livro {
+    - String nomeLivro
+    - Double precoLivro
+    - List<Observador> observadores
+    + Livro(String nomeLivro)
+    + void adicionarObservador(Observador observador)
+    + void alterarPreco(Double novoPreco)
+    - void notificarObservadores()
+}
+
+class Distribuidor implements Observador {
+    - Double precoLivro
+    + void atualizar(Double preco)
+    + Double getPrecoAtual()
+}
+
+class Cliente implements Observador {
+    - Double precoLivro
+    + void atualizar(Double preco)
+    + Double getPrecoAtual()
+}
+
+Observador <|.. Distribuidor
+Observador <|.. Cliente
+
+Livro --> Observador : "notifica"
+
+@enduml

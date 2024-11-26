@@ -1,0 +1,15 @@
+@startuml
+
+class Configuracao {
+    - static Configuracao instancia
+    - Configuracao()
+    + static Configuracao getInstancia()
+    + void exibirMensagem()
+}
+
+note right of Configuracao
+A classe Configuracao implementa o padrão Singleton.
+Apenas uma instância será criada e compartilhada.
+end note
+
+@enduml
