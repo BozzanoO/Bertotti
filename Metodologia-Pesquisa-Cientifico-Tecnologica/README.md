@@ -1,4 +1,4 @@
-<h1>Paulo Antonio Arantes Machado</h1>
+<h1>PEDRO HENRIQUE DA SILVA BOZZANO PEREIRA</h1>
 
 <h2>Introdução</h2>
 Sou estudante de Banco de Dados na FATEC São José dos Campos - SP e me formarei em dezembro de 2025. Sou técnico mecatrônico formado pela ETEP São José dos Campos-SP. Atualmente trabalho como estagiário de dados de Recursos Humanos na Heineken. Como estagiário de dados, meu projeto de estágio está sendo um controle efetivo de treinamentos atuando com as bases de dados dos sistemas da empresa (SQL e Access). Normalizei tabelas e desenvolvi dashboards para uma melhor visualização para todos os usuários de controle de seus treinamentos. Auxiliei as áreas de segurança e qualidade com desenvolvimento e otimização dos dados para que sejam mais confiáveis e que consigam uma maior velocidade em suas análises de acidente e análises de microbiologia respectivamente.
